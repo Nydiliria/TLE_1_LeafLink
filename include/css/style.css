@@ -16,7 +16,6 @@ header, main, footer {
 }
 
 header div {
-    
         width: 150px;
         height: 150px;
         background: #e0f7fa;
@@ -27,8 +26,35 @@ header div {
         padding: 16px;
         vertical-align: top;
         text-align: center;
-    }
+}
 
+/**/
+#pageNavigationCityGarden{
+    width: 20%;
+    top: 15%;
+    position: absolute;
+    right: 0%;
+}
+
+#pageNavigationCityGarden a{
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+}
+
+#pageNavigationCityGarden a{
+    background-color: #ccc;
+}
+
+#headerCG{
+    border-bottom: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+}
     
 .fav-plants {
     display: flex;
