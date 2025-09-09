@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <nav> <!-- add burger menu and profile -->
+    <header> <!-- add burger menu and profile -->
         <div class="burger" onclick="document.querySelector('.nav-links').classList.toggle('show')">
             <span></span>
             <span></span>
@@ -19,9 +19,10 @@
             <a href="include/pages/plant_archive.php">Plant Archive</a>
             <a href="include/pages/city_garden.php">City Garden</a>
         </div>
-    </nav>
+    </header>
     
-    <header>
+    <main>
+    <section>
     <div class="info-box">
         <h3>Plant of the Day</h3>
         <p>Monstera Deliciosa</p>
@@ -34,9 +35,8 @@
         <h3>Weather</h3>
         <p>Sunny, 22°C</p>
     </div>
-    </header>
-    
-    <main> 
+    </section>
+     
     <section class="fav-plants">
         <div class="fav-box">
             <h4>Alice's Favorite</h4>
@@ -52,10 +52,13 @@
         </div>
     </section>
 
-    <section> <!-- Add news and tips -->
-
+    <section class="news-box">
+        <h3>Plant News</h3>
+        <p>
+            Discover the latest updates in the world of plants! New species are being discovered, sustainable gardening is on the rise, and communities everywhere are sharing tips for greener living. Stay tuned for more news and inspiration.
+        </p>
     </section>
-</main>
+    </main>
 
     <footer> <!-- Add logo -->
 
