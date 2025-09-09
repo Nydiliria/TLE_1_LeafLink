@@ -12,28 +12,52 @@ header, main, footer {
     flex-direction: column;
     align-items: center;
 }
+
+
+
 header div {
-    width: 150px;
-    height: 150px;
-    background: #e0f7fa;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    display: inline-block;
-    margin: 10px;
-    padding: 16px;
-    vertical-align: top;
-    text-align: center;
+    
+        width: 150px;
+        height: 150px;
+        background: #e0f7fa;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        display: inline-block;
+        margin: 10px;
+        padding: 16px;
+        vertical-align: top;
+        text-align: center;
+    }
+
+/**/
+#pageNavigationCityGarden{
+    width: 20%;
+    top: 15%;
+    position: absolute;
+    right: 0%;
 }
 
-section {
-    width: 90vw;
-    max-width: 500px;
-    background: #fffbe7;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px #0002;
-    margin: 2rem auto;
-    padding: 2rem 1rem;
-    text-align: left;
+#pageNavigationCityGarden a{
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+}
+
+#pageNavigationCityGarden a{
+    background-color: #ccc;
+}
+
+#headerCG{
+    border-bottom: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+}
+    
+.fav-plants {
     display: flex;
     flex-direction: row;
     gap: 1rem;
