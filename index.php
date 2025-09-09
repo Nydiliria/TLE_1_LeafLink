@@ -39,12 +39,15 @@
     <main> 
     <section class="fav-plants">
         <div class="fav-box">
+            <h4>Alice's Favorite</h4>
             <p>Fiddle Leaf Fig</p>
         </div>
         <div class="fav-box">
+            <h4>Bob's Favorite</h4>
             <p>Snake Plant</p>
         </div>
         <div class="fav-box">
+            <h4>Carol's Favorite</h4>
             <p>Pothos</p>
         </div>
     </section>
